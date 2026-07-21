@@ -1,0 +1,5 @@
+title: World, at 6am
+description: Everything you need to know, ready for you every day at 6 a.m.
+theme: null
+permalink: /posts/:year-:month-:day/
+markdown: kramdown
