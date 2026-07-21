@@ -138,15 +138,52 @@ article .post-meta {
     margin-bottom: 2rem;
 }
 
-/* Footer */
+/* Stile Footer */
 footer {
+    border-top: 1px solid #111111;
     margin-top: 4rem;
-    border-top: 1px solid #dddddd;
     padding-top: 1.5rem;
+    padding-bottom: 2rem;
     text-align: center;
-    font-size: 0.85rem;
-    color: #777777;
+    font-size: 0.9rem;
 }
+
+.footer-nav a {
+    color: #111111;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-credit {
+    color: #666666;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+/* Elenco donazioni */
+.donation-links {
+    list-style: none;
+    padding-left: 0;
+}
+
+.donation-links li {
+    margin-bottom: 0.8rem;
+}
+
+.donation-links a {
+    color: #0b253c;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.donation-links a:hover {
+    text-decoration: underline;
+}
+
 
 /* Stile specifico per l'ultimo post in Home Page */
 .latest-news {

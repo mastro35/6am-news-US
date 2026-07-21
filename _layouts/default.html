@@ -37,8 +37,13 @@
         </main>
 
         <footer>
-            &copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Archivio quotidiano.
+          <nav class="footer-nav">
+            <a href="{{ '/' | relative_url }}">Home</a> &bull; 
+            <a href="{{ '/about/' | relative_url }}">About</a>
+          </nav>
+          <p class="footer-credit">&copy; {{ site.time | date: '%Y' }} 6am — world, at six</p>
         </footer>
+
     </div>
 </body>
 </html>
