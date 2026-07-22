@@ -23,11 +23,11 @@ h1, h2, h3, .site-title {
     line-height: 1.2;
 }
 
-/* Stile per l'Header con Banner Logo */
+/* Stile per l'Header con Menu integrato */
 header {
     border-bottom: 2px solid #111111;
-    padding-bottom: 1.5rem;
-    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2.5rem;
     text-align: center;
 }
 
@@ -39,14 +39,37 @@ header {
 .site-logo {
     max-width: 100%;
     height: auto;
-    max-height: 180px; /* Limita l'altezza per non occupare troppo spazio verticale */
+    max-height: 180px;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 1rem auto;
     transition: opacity 0.2s ease;
 }
 
 .site-logo:hover {
     opacity: 0.9;
+}
+
+/* Stile per la barra di navigazione superiore */
+.main-nav {
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.main-nav a {
+    color: #111111;
+    text-decoration: none;
+    padding: 0 0.4rem;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.nav-divider {
+    color: #888888;
 }
 
 /* Nasconde visivamente il titolo testuale mantenendolo per screen-reader/SEO */
