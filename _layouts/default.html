@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     
-    <!-- rss feed>
+    <!-- rss feed -->
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
 
     <!-- Web App Manifest & Favicon -->
@@ -34,18 +34,15 @@
     <!-- Tag SEO accessibile -->
     <h1 class="sr-only">{{ site.title }}</h1>
 
+    <!-- Menu di navigazione in alto -->
+    <nav class="main-nav">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span class="nav-divider">&bull;</span>
+      <a href="{{ '/archive/' | relative_url }}">Archive</a>
+      <span class="nav-divider">&bull;</span>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+    </nav>
 
-<!-- Menu di navigazione in alto -->
-<nav class="main-nav">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <span class="nav-divider">&bull;</span>
-    <a href="{{ '/archive/' | relative_url }}">Archive</a>
-    <span class="nav-divider">&bull;</span>
-    <a href="{{ '/about/' | relative_url }}">About</a>
-</nav>
-
-
-            
 </header>
 
         <main>
